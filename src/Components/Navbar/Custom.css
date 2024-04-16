@@ -1,0 +1,18 @@
+/* Custom colors */
+@layer components {
+    .darkmode {
+      @apply text-2xl;
+    }
+  
+    .profileImg {
+      @apply w-10 h-10 rounded-full;
+    }
+  }
+  
+  /* Override existing Tailwind styles */
+  @layer utilities {
+    .logout {
+      @apply absolute bottom-0 left-0 bg-white w-full;
+    }
+  }
+  
